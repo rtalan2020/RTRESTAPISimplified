@@ -31,6 +31,7 @@ router.post('/', async (req, res) => {
   }
 })
 
+
 // Updating One
 router.patch('/:id', getSubscriber, async (req, res) => {
   if (req.body.name != null) {
